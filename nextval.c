@@ -25,7 +25,7 @@ void get_nextval(String T, int* nextval) {
 
 			if (T[i] != T[j]) {  //此时增加了一项比较当前字符与前缀字符是否相等的步骤
 
-				nextval[i] = j;
+				nextval[i] = j; //这个步骤非常有意思，联系先求出next数组，再计算nextval的情景
 
 			} else {
 
