@@ -44,3 +44,5 @@ int Index_KMP(String S, String T, int pos) {
 
 	}
 }
+
+因为求next数组的时间复杂度为O(m),而while循环的复杂度为O(n),所以KMP匹配算法的时间复杂度为O(m + n)

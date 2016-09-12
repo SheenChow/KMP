@@ -33,3 +33,5 @@ void get_next(String T, int* next){
 		}
 	}
 }
+
+注：时间复杂度是O(m)
